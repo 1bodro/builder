@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>test Andrey Bakun</title>
+	<link rel="shortcut icon" href="img/icon.png" type="image/png">
+	<!--	подключил через css, можно поменять на google fonts-->
+	<!--	<link href="https://fonts.googleapis.com/css?family=Exo+2:300,400,600,700,800&amp;subset=cyrillic" rel="stylesheet">-->
+	<link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div class="menu-icon" data-behaviour="toggle-menu-icon">
+				<span class="menu-icon__bar"></span>
+			</div>
+			<ul class="header__menu" data-element="toggle-nav">
+				<li><a href="#" data-hover="Услуги">Услуги</a></li>
+				<li><a href="#" data-hover="Преимущества">Преимущества</a></li>
+				<li><a href="#" data-hover="Материалы">Материалы</a></li>
+				<li><a href="#" data-hover="Портфолио">Портфолио</a></li>
+				<li><a href="#" data-hover="Отзывы">Отзывы</a></li>
+				<li><a href="#" data-hover="Контакты">Контакты</a></li>
+			</ul>
+		</div>
+		<div class="container">
+			<div class="head">
+				<div class="logo">
+					<a class="logo__img" href="#"><img src="img/logo.png" alt=""></a>
+					<span class="logo__desc">кровли, фасады, бмз, металлоконструкции</span>
+				</div>
+				<div class="contact">
+					<span class="contact__tel">+7 &nbsp;(978) 787-25-46</span>
+					<span class="contact__call popup__btn">Заказать звонок</span>
+				</div>
+			</div>
+			<div class="main">
+				<div class="infoblock">
+					<div class="infoblock__item">
+						<span class="clock"></span>
+
+						<div class="infoblock__item__text resizeble-font" data-ratio="4.5" data-size="24">
+							<span class="infoblock__item__title">
+								быстро
+							</span>
+							<span class="infoblock__item__disc">
+								от 4-х дней
+							</span>
+						</div>
+
+					</div>
+					<div class="infoblock__item">
+						<span class="handshake"></span>
+
+						<div class="infoblock__item__text resizeble-font" data-ratio="4.5" data-size="24">
+							<span class="infoblock__item__title">
+								выгодно
+							</span>
+							<span class="infoblock__item__disc">
+								наши цены Вас порадуют
+							</span>
+						</div>
+
+					</div>
+					<div class="infoblock__item">
+						<span class="reward"></span>
+
+						<div class="infoblock__item__text resizeble-font" data-ratio="4.5" data-size="24">
+							<span class="infoblock__item__title">
+								надежно
+							</span>
+							<span class="infoblock__item__disc">
+								гарантия 10 лет
+							</span>
+						</div>
+
+					</div>
+				</div>
+				<div class="price-button popup__btn">
+					<span class="price-button__text">узнать цену</span>
+				</div>
+				<div class="form form_price">
+					<span class="form__header">узнайте цену<br> за 3 минуты</span>
+					<span class="form__disc">Оставьте заявку на расчет цены<br> и узнайте точные сроки и стоимость работ</span>
+					<form class="form__body">
+						<div class="fieldset fieldset_user">
+							<input id="signup-username" type="text" autocomplete="off">
+							<div class="fieldset__img">
+								<span class="img-user"></span>
+							</div>
+						</div>
+
+						<div class="fieldset fieldset_phone">
+							<input id="signup-email" type="tel" autocomplete="off">
+							<div class="fieldset__img">
+								<span class="img-phone"></span>
+							</div>
+
+						</div>
+						<div class="form__submit">
+							<input id="formBtn" type="submit" value="Узнать цену">
+						</div>
+						<div class="privacy">
+
+							<label class="privacy__container">
+               <input type="checkbox" id="privacy__check">
+                <span class="privacy__point"></span> 
+                <span class="privacy__text">Согласие с политикой конфиденциальности</span>
+							</label>
+						</div>
+					</form>
+				</div>
+				<div class="builder">
+					<div class="cloud">
+						<div class="cloud__container">
+							<span class="cloud__text resizeble-font" data-ratio="4.191" data-size="36">
+							кровельные работы<br /> с гарантией 10 лет<br /> в симферополе и по Крыму</span>
+						</div>
+					</div>
+					<div class="builder__img">
+						<img src="img/builder.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="hidden-form">
+			<div class="form form_popup">
+				<span class="form__close popup__btn">
+				&#10008;
+			</span>
+				<span class="form__header">узнайте цену<br> за 3 минуты</span>
+				<span class="form__disc">Оставьте заявку на расчет цены<br> и узнайте точные сроки и стоимость работ</span>
+				<form class="form__body">
+					<div class="fieldset fieldset_user">
+						<input id="signup-username" type="text" autocomplete="off">
+						<div class="fieldset__img">
+							<span class="img-user"></span>
+						</div>
+					</div>
+
+					<div class="fieldset fieldset_phone">
+						<input id="signup-email" type="tel" autocomplete="off">
+						<div class="fieldset__img">
+							<span class="img-phone"></span>
+						</div>
+
+					</div>
+					<div class="form__submit">
+						<input id="formBtn" type="submit" value="Узнать цену">
+					</div>
+					<div class="privacy">
+
+						<label class="privacy__container">
+               <input type="checkbox" id="privacy__check">
+                <span class="privacy__point"></span> 
+                <span class="privacy__text">Согласие с политикой конфиденциальности</span>
+							</label>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src='js/index.js'></script>
+</body>
+
+</html>
